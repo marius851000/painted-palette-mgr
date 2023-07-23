@@ -6,8 +6,7 @@ use painted_palette_mgr::{Config, Manager, User};
 
 fn main() {
     let mut config = Config {
-        command_proxy: "palette-bot".into(),
-        command_control: "palette-tor".into(),
+        command_proxy: "palette-tor".into(),
         directory: "/home/marius/rplace3/ptdeploy".into(),
         archived_dir: "/home/marius/rplace3/archive".into(),
     };
